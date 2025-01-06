@@ -1,4 +1,4 @@
-#多号换行，变量名：sfsyUrl
+#多号换行，变量名：sfsyUrl2025
 # const $ = new Env('顺丰速运')
 import hashlib
 import json
@@ -1739,13 +1739,13 @@ def import_Tools():
 
 if __name__ == '__main__':
     APP_NAME = '顺丰速运'
-    ENV_NAME = 'sfsyUrl'
+    ENV_NAME = 'sfsyUrl2025'
     CK_NAME = 'url'
     print(f'''
     2025/1/4修复版，新增新年活动
     扫码获取URL网站：sm.linzixuan.work,选择复制编码Token即可
     格式：多账号用&分割
-    变量名：sfsyUrl
+    变量名：sfsyUrl2025
     ''')
     local_script_name = os.path.basename(__file__)
     local_version = '2025.01.04'
